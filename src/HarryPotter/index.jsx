@@ -4,7 +4,7 @@ import { useState } from "react";
 import * as S from '../Styles/harrypotter';
 
 export default function Dog(){
-  let Api = 'http://hp-api.herokuapp.com/api/characters'
+  let Api = 'https://hp-api.herokuapp.com/api/characters'
   const [personagem, setPersonagem] = useState([])
 
   useEffect(()=>{
@@ -22,7 +22,6 @@ export default function Dog(){
           <S.Figure>
             <img src={item.image} alt={item.name} />
           </S.Figure>
-          
         </S.Div>
       ))}</S.Ul>
     </S.Container>

@@ -31,13 +31,21 @@ export const Figure = styled.figure`
 `
 
 export const Div = styled.div`
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 2vh 0;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
+    cursor: pointer;
 
     img{
         max-height: 300px;
         max-width: 300px;
         object-fit: cover;
+    }
+    :hover{
+      border: 1px solid #7f0909;
+      border-radius: 5%;
     }
 `

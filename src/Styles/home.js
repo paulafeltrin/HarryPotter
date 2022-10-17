@@ -14,6 +14,7 @@ display: flex;
 align-items: center;
 justify-content: center;
 background-color: #7f0909;
+color: white;
 `
 export const BoxHome = styled.section`
   border-radius: 7px;
